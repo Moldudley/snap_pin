@@ -7,6 +7,18 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Circle",
+      "x": 0.1,
+      "y": 0.7,
+      "uniqueID": "id-11",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
