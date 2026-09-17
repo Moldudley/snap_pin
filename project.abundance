@@ -38,8 +38,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.8,
-      "y": 0.4,
+      "x": 0.7,
+      "y": 0.5,
       "uniqueID": "id-18",
       "ioValues": [
         {
@@ -80,6 +80,33 @@
                 0,
                 0,
                 0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "extrude-move-circle-0.125-0-0-0-{\"origin\":[0,0,0.51],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.1",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0.51
               ],
               "xDir": [
                 1,
@@ -150,6 +177,23 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.3,
+      "y": 0.2,
+      "uniqueID": "id-36",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.1,
+          "currentEquation": ".1"
+        }
+      ]
+    },
+    {
       "atomType": "Circle",
       "x": 0.1,
       "y": 0.5,
@@ -210,6 +254,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-23",
       "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-26",
+      "ap2ID": "id-36"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-36",
+      "ap2ID": "id-18"
     }
   ],
   "unitsKey": "Inches",
