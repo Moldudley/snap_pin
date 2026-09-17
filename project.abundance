@@ -214,8 +214,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 0.05,
-          "currentEquation": ".05"
+          "ioValue": 0.03,
+          "currentEquation": "0.03"
         },
         {
           "name": "y length",
@@ -260,8 +260,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.2,
-          "currentEquation": ".2"
+          "ioValue": 0.3,
+          "currentEquation": "0.3"
         }
       ]
     },
@@ -480,8 +480,7 @@
           "selectedEdgeData": {
             "0": [
               26,
-              2,
-              30
+              2
             ]
           }
         },
