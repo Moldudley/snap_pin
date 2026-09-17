@@ -7,6 +7,24 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Rectangle",
+      "x": 0.5,
+      "y": 0.2,
+      "uniqueID": "id-106",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "y length",
+          "ioValue": 1,
+          "currentEquation": "1"
+        }
+      ]
+    },
+    {
       "atomType": "Circle",
       "x": 0.1,
       "y": 0.7,
@@ -16,6 +34,55 @@
           "name": "diameter",
           "ioValue": 0.3,
           "currentEquation": ".3"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.2,
+      "uniqueID": "id-110",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0.58,
+          "currentEquation": ".58"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.3,
+      "uniqueID": "id-116",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     },
@@ -214,8 +281,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 0.03,
-          "currentEquation": "0.03"
+          "ioValue": 0.04,
+          "currentEquation": "0.04"
         },
         {
           "name": "y length",
@@ -669,6 +736,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-93",
       "ap2ID": "id-96"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-106",
+      "ap2ID": "id-110"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-106",
+      "ap2ID": "id-116"
     }
   ],
   "unitsKey": "Inches",
