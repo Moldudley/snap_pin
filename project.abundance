@@ -480,7 +480,8 @@
           "selectedEdgeData": {
             "0": [
               26,
-              2
+              2,
+              30
             ]
           }
         },
@@ -561,7 +562,7 @@
     {
       "atomType": "Export",
       "x": 1,
-      "y": 0.3,
+      "y": 0.2,
       "uniqueID": "id-96",
       "ioValues": [
         {
