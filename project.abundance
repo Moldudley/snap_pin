@@ -171,7 +171,7 @@
           "selectedEdgeData": {
             "0": [
               1,
-              38
+              51
             ]
           }
         },
@@ -258,7 +258,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-circle-0.09-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.51",
+            "geometry": "extrude-circle-0.095-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.51",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -414,8 +414,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 0.18,
-          "currentEquation": "0.18"
+          "ioValue": 0.19,
+          "currentEquation": "0.19"
         }
       ]
     },
