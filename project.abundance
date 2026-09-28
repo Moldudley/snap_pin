@@ -14,13 +14,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "y length",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
       ]
     },
@@ -32,8 +30,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 0.3,
-          "currentEquation": ".3"
+          "ioValue": 0.3
         }
       ]
     },
@@ -53,13 +50,11 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0.59,
-          "currentEquation": ".59"
+          "ioValue": 0.59
         },
         {
           "name": "zDist",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         }
       ]
     },
@@ -75,18 +70,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": -0.59,
-          "currentEquation": "-.59"
+          "ioValue": -0.59
         },
         {
           "name": "zDist",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         }
       ]
     },
@@ -97,16 +89,24 @@
       "uniqueID": "id-122",
       "ioValues": [
         {
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape4",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
@@ -123,8 +123,7 @@
         },
         {
           "name": "radius",
-          "ioValue": 0.03,
-          "currentEquation": "0.03"
+          "ioValue": 0.03
         }
       ],
       "topLevel": false,
@@ -244,8 +243,7 @@
         },
         {
           "name": "height",
-          "ioValue": -0.1,
-          "currentEquation": "-.1"
+          "ioValue": -0.1
         }
       ]
     },
@@ -359,8 +357,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 0.22,
-          "currentEquation": "0.22"
+          "ioValue": 0.22
         }
       ]
     },
@@ -384,8 +381,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.51,
-          "currentEquation": ".51"
+          "ioValue": 0.51
         }
       ]
     },
@@ -401,8 +397,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0.08,
-          "currentEquation": "0.08"
+          "ioValue": 0.08
         }
       ]
     },
@@ -414,8 +409,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 0.19,
-          "currentEquation": "0.19"
+          "ioValue": 0.19
         }
       ]
     },
@@ -427,13 +421,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 0.04,
-          "currentEquation": "0.04"
+          "ioValue": 0.04
         },
         {
           "name": "y length",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         }
       ]
     },
@@ -473,8 +465,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.3,
-          "currentEquation": "0.3"
+          "ioValue": 0.3
         }
       ]
     },
@@ -506,8 +497,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0.51,
-          "currentEquation": ".51"
+          "ioValue": 0.51
         }
       ]
     },
@@ -548,6 +538,10 @@
           "ioValue": 96
         },
         {
+          "name": "STL Tolerance",
+          "ioValue": 0.002
+        },
+        {
           "name": "Part Name",
           "ioValue": "snap_pin",
           "currentEquation": "snap_pin"
@@ -562,18 +556,33 @@
   "allConnectors": [
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-7"
+      "ap1ID": "id-106",
+      "ap2ID": "id-110"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-7",
-      "ap2ID": "id-18"
+      "ap2Name": "geometry",
+      "ap1ID": "id-106",
+      "ap2ID": "id-116"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-11",
       "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-110",
+      "ap2ID": "id-122"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-116",
+      "ap2ID": "id-122"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-122",
+      "ap2ID": "id-45"
     },
     {
       "ap2Name": "Shape 2",
@@ -602,6 +611,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-7"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-41",
       "ap2ID": "id-49"
     },
@@ -621,34 +635,14 @@
       "ap2ID": "id-133"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-7",
+      "ap2ID": "id-18"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-93",
       "ap2ID": "id-96"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-106",
-      "ap2ID": "id-110"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-106",
-      "ap2ID": "id-116"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-110",
-      "ap2ID": "id-122"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-116",
-      "ap2ID": "id-122"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-122",
-      "ap2ID": "id-45"
     },
     {
       "ap2Name": "number or geometry",
